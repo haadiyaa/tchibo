@@ -1,0 +1,239 @@
+
+body{
+    background-color: #F8F6F2;
+    margin: 0;
+    font-family: "Interstate", "-apple-system"," BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+/*-----------header-------------*/
+.container-head{
+    width: 100%;
+    padding: 16px 0 16px 0;
+    font-size: 18px;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    background-color: #F8F6F2;
+}
+.subcontainer{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+}
+.menu-button{
+    display: none;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    right: 0;
+}
+.links{
+    align-items: center;
+    gap: 1.5rem;
+    display: flex;
+    justify-content: right;
+}
+.links a:hover{
+    border-bottom: 3px solid black;
+    
+}
+.links a{
+    padding-bottom: 5px;
+}
+.links a svg{
+    position: relative;
+    top: 4px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+/*-----------div1-------------*/
+.container-main{
+    width: 100%;
+}
+.submain{
+    width: 87%;
+    margin: auto;
+}
+.submainleft h2{
+    margin: 0;
+    margin-bottom: 30px;
+    color: #C0A468;
+    font-size: 2.5rem;
+}
+.submainright{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.5rem;
+}
+.imgdiv img{
+    width: 98%;
+}
+/*-----------div2-------------*/
+.container-small{
+    width: 100%;
+}
+.subcontainer-small{
+    width: 70%;
+    margin: auto;
+}
+.subcontainer-small p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.col1{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-gap: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+.subcol{
+    padding: 1rem 2rem 0 0;
+}
+.subcol a{
+    text-decoration: underline;
+    font-weight: 500;
+}
+/*-----------div3-------------*/
+.container-small .submain h2{
+    color: #C0A468;
+    text-align: center;
+    font-size: 1.5625rem;
+    letter-spacing: 0.05rem;
+}
+.container-small .submain a{
+    text-decoration: underline;
+    color: #C0A468;
+    letter-spacing: 0.05rem;
+}
+/*-----------footer-------------*/
+.footer{
+    background-color: #423D39;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.subfoot{
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3rem;
+}
+.cols a{
+    text-decoration: underline;
+    color: white;
+}
+.cols p{
+    margin-top: 0;
+    line-height: 2rem;
+}
+.cols h6{
+    font-size: 20px;
+}
+hr{
+    width: 80%;
+    margin-top: 3rem;
+}
+.last{
+    padding-top: 10px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.last a{
+    padding-left: 7px;
+}
+.last div span{
+    font-weight: 500;
+}
+@media (max-width:835px) {
+    .logo svg{
+        width: 250px;
+    }
+    .menu-button{
+        display:block;
+    }
+    .links{
+        display: none;
+    }
+    .submain{
+        width: 95%;
+        margin: auto;
+    }
+    .submainleft h2{
+        color: #C0A468;
+        font-size: 2rem;
+    }
+    .subcontainer-small{
+        width: 90%;
+    }
+    .container-small .submain h2{
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+    .subfoot{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 3rem;
+    }
+
+}
+@media(max-width:430px){
+    .submainright{
+        grid-template-columns: auto;
+        grid-gap: 3rem;
+    }
+    .submain{
+        width: 90%;
+        margin: auto;
+    }
+    .submainleft h2{
+        margin: 0;
+        margin-bottom: 30px;
+        color: #C0A468;
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+    .subcontainer-small{
+        width: 90%;
+        margin: auto;
+    }
+    h4{
+        font-size: 1.2rem;
+        letter-spacing: 0.05rem;
+    }
+    .col1{
+        display: grid;
+        grid-template-columns:  auto;
+        grid-gap: 1.5rem;
+    }
+    .container-small .submain h2{
+        font-size: 1.2rem;
+        letter-spacing: 0.05rem;
+    }
+    .subfoot{
+        grid-template-columns: auto;
+        grid-gap: 0;
+    }
+    .cols p{
+        line-height: 2rem;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
