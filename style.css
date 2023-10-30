@@ -82,6 +82,8 @@ a{
     margin: auto;
 }
 .subcontainer-small p{
+    
+    text-align: justify;
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
